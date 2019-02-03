@@ -71,11 +71,11 @@ let numberOfDrumButtons = document.querySelectorAll('.drum').length;
 
 let CssKeyPress = function (id) {
   let getId = document.getElementById(id);
-  getId.classList.add('keypress')
+  getId.classList.add('keypress');
   setTimeout(function () {
-    getId.classList.remove('keypress')
+    getId.classList.remove('keypress');
   },
-    500);
+    100);
 }
 
 
