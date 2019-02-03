@@ -79,6 +79,5 @@ let CssKeyPress = function (id) {
 }
 
 
- // let audio = new Audio('./sounds/clap.mp3');
- // audio.play();
+ 
 
